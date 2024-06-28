@@ -1,2 +1,2 @@
-# AmazingEventsYamidBarrera
+# amazingEventsYamidBarrera
 Sprint1_RappiCH4
