@@ -103,73 +103,15 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <div class="container-fluid d-flex justify-content-between bg-secondary-subtle p-0">
-            <button class="custom-button d-md-none ms-2 mt-2 rounded border" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapsibleContent" aria-expanded="false" aria-controls="collapsibleContent">
-                Filter
-            </button>
-            <div class="collapse d-md-none" id="collapsibleContent">
-                <div class="align-self-center mt-2 ms-2">
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" value="option1">
-                        <label class="form-check-label">Food</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" value="option2">
-                        <label class="form-check-label">Music</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" value="option3">
-                        <label class="form-check-label">Sports</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" value="option3">
-                        <label class="form-check-label">Art</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" value="option3">
-                        <label class="form-check-label">Culture</label>
-                    </div>
-                </div>
+        <div class="d-flex justify-content-between bg-secondary">
+            <div class="d-flex justify-content-start m-3 bg-secondary-subtle rounded p-0.5" id="filters">
             </div>
-            <div class="form-check form-check-inline p-0 d-md-none">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2 mt-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success mt-2" type="submit">Search</button>
+            <div class="d-flex justify-content-center align-content-center">
+                <form class="d-flex">
+                    <div class="input-group align-self-center me-3">
+                        <input type="text" id="search" class="form-control" placeholder="Buscar" aria-label="Buscar">
+                    </div>
                 </form>
-            </div>
-            <div class="container-fluid d-none d-md-block m-0 p-0">
-                <div class="d-flex justify-content-between bg-secondary-subtle">
-                    <div class="align-self-center mt-2 ms-2">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" value="option1">
-                            <label class="form-check-label">Food</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" value="option2">
-                            <label class="form-check-label">Music</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" value="option3">
-                            <label class="form-check-label">Sports</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" value="option3">
-                            <label class="form-check-label">Art</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" value="option3">
-                            <label class="form-check-label">Culture</label>
-                        </div>
-                    </div>
-                    <div class="form-check form-check-inline p-0">
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2 mt-2" type="search" placeholder="Search"
-                                aria-label="Search">
-                            <button class="btn btn-outline-success mt-2" type="submit">Search</button>
-                        </form>
-                    </div>
-                </div>
             </div>
         </div>
         <div id="containerCards" class="d-flex flex-wrap justify-content-evenly bg-body-secondary">

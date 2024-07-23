@@ -1,6 +1,6 @@
 main {
     margin-top: 62.73px;
-    min-height: 90vh;
+    min-height: 84vh;
 }
 
 .carousel-inner .carousel-item {
@@ -30,4 +30,10 @@ main {
 
 footer img {
     width: 2.5rem;
+}
+
+#contenedorDetalles {
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }

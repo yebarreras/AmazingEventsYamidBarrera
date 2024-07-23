@@ -47,31 +47,24 @@
             </div>
         </nav>
     </header>
-    <main class="bg-secondary-subtle p-3 align-content-center">
-        <div class="container d-flex">
-            <div class="p-3 my-3 rounded border bg-secondary">
-                <div class="card g-3">
-                    <div class="row g-0">
-                        <div class="col-md-6">
-                            <img src="Recursos_Amazing_Events_Task_1/food_fair.jpg"
-                                class="card-img img-fluid rounded-start" alt="Comida_Food Fair">
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card-body text-start">
-                                <h5 class="card-title">Festival of the collectivities</h5>
-                                <p class="card-text">Id: 1 <br>Date: 2022-12-12 <br>category: Food Fair
-                                    <br>Place:
-                                    Room-A
-                                    <br>Capacity: 45000 <br>Assistance: 42756 <br>Price: 5
-                                </p>
-                                <p class="card-text">Enjoy your favorite dishes from different countries in a
-                                    unique
-                                    event
-                                    for the whole family.</p>
-                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
-                                        ago</small>
-                                </p>
-                            </div>
+    <main class="bg-secondary-subtle align-content-center">
+        <div id="contenedorDetalles" class="d-flex justify-content-center">
+            <div class="card w-75">
+                <div class="row g-0">
+                    <div class="col-md-6">
+                        <img class="img-fluid rounded-start" id="imagenDetalles" src="./Recursos_Amazing_Events_Task_1/optional_banner_1.jpg" alt="...">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h3 class="card-title" id="tituloDetalles">Collectivities Party</h3>
+                            <h5 class="card-title" id="categoriaDetalles">Food Fair</h5>
+                            <p id="fechaDetalles">date: "2022-12-12"<br>place: "Room A"</p>
+                            <p class="card-text" id="descripcionDetalles">This is a wider card with supporting text
+                                below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text fw-bold" id="precioDetalles">price: $5.000</p>
+                            <p class="card-text" id="aforoDetalles"><small class="text-body-secondary">capacity: 45000
+                                    <br>assistance: 42756</small></p>
                         </div>
                     </div>
                 </div>
@@ -95,6 +88,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="Details.js"></script>
 </body>
 
 </html>
