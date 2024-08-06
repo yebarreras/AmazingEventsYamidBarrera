@@ -109,59 +109,39 @@
             <div class="row">
                 <div class="col">
                     <table class="table table-bordered border-black my-5">
-                        <tr class="table-success border-black">
+                        <tr class="table-success border-black text-center">
                             <th scope="colgroup" colspan="3">Events Statistics</th>
                         </tr>
                         <tbody>
                             <tr>
-                                <td>Events with highest % of assistance</td>
-                                <td>Events with lowest % of assistance</td>
-                                <td>Events with larger capacity</td>
+                                <td class="bg-secondary-subtle text-center">Events with highest % of assistance</td>
+                                <td class="bg-secondary-subtle text-center">Events with lowest % of assistance</td>
+                                <td class="bg-secondary-subtle text-center">Events with larger capacity</td>
                             </tr>
                             <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td id="event_highest" style="text-align: center; font-family: cursive;"></td>
+                                <td id="event_lowest" style="text-align: center; font-family: cursive;"></td>
+                                <td id="event_larger" style="text-align: center; font-family: cursive;"></td>
                             </tr>
                         </tbody>
-                        <tr class="table-success border-black">
+                        <tr class="table-success border-black text-center">
                             <th scope="colgroup" colspan="3">Upcoming events statistics by category</th>
                         </tr>
-                        <tbody>
+                        <tbody id="table_upcoming">
                             <tr>
-                                <td>Categories</td>
-                                <td>Revenues</td>
-                                <td>Porcentage of assistance</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td class="text-center bg-secondary-subtle">Categories</td>
+                                <td class="text-center bg-secondary-subtle">Revenues</td>
+                                <td class="text-center bg-secondary-subtle">Porcentage of assistance</td>
                             </tr>
                         </tbody>
-                        <tr class="table-success border-black">
+                        <tr class="table-success border-black text-center">
                             <th scope="colgroup" colspan="3">Pasts events statistics by category</th>
                         </tr>
-                        <tbody>
+                        <tbody id="table_past">
                             <tr>
-                                <td>Categories</td>
-                                <td>Revenues</td>
-                                <td>Porcentage of assistance</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td class="text-center bg-secondary-subtle">Categories</td>
+                                <td class="text-center bg-secondary-subtle">Revenues</td>
+                                <td class="text-center bg-secondary-subtle">Porcentage of assistance</td>
                             </tr>
                         </tbody>
                     </table>
@@ -186,6 +166,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="Stats.js" type="module"></script>
 </body>
 
 </html>

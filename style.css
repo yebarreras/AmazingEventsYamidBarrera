@@ -37,3 +37,11 @@ footer img {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
+#containerCards {
+    min-height: 53vh;
+}
+
+#estadisticas {
+    max-width: 98vw;
+}
